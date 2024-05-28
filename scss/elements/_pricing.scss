@@ -50,7 +50,7 @@
       --accent-color: #{$color-redish};
 
       .pricing__price {
-        margin-bottom: 30px;
+          margin-bottom: 30px;
         @include notebook {
           margin-bottom: 0;
         }
