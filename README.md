@@ -1,5 +1,5 @@
-
-## This is a presentation page for the workshop of a company that offers online store management services and also provides the appropriate software for this.
+# BestShop
+This is a presentation page for the workshop of a company that offers online store management services and also provides the appropriate software for this.
 
 ## Explore my app:
 
