@@ -41,7 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
 
-    //inputy
+    //inputs
+
     const PRODUCT_PRICE = 0.5;
     let ProductsPrice = 0;
     let productsSum = 0;
@@ -79,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     package1.addEventListener("click", openBox);
 
-    // do wyboru z listy
+    // to choose from the list
 
     let basicPrice = 0;
     let professionalPrice = 0;
@@ -132,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return `${OrderSum + productsSum + AccountingPrice + terminalPrice + basicPrice + professionalPrice + premiumPrice}`;
     }
 
-    // checkboxy
+    // checkboxes
     let AccountingPrice = 0;
     checkboxAccounting.addEventListener("change", function (e) {
         listItem4.classList.toggle("open");
