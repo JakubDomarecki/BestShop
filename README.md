@@ -28,6 +28,7 @@ If you want to see how my application works in action, you can check it out [her
 ## FEATURES
 - Responsive Web Design (RWD)
 - You can calculate how much you will pay using the automatic calculator
+- custom checkbox
   
 
    ![image](https://github.com/JakubDomarecki/Design_workshop/assets/160236789/ae427b29-218c-4ea9-91d9-dca092b7ffa3)
