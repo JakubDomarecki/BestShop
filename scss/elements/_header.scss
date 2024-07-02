@@ -4,15 +4,15 @@
 .header {
   height: 70px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  &__container{
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
   }
-  &__nav{
+  &__nav {
     display: flex;
-    @include mobile{
+    @include mobile {
       position: absolute;
       left: 0;
       top: 95px;
@@ -31,14 +31,14 @@
       }
     }
   }
-  .nav{
-    &__element{
+  .nav {
+    &__element {
       padding: 0 26px;
-      &:last-child{
+      &:last-child {
         padding-right: 0;
       }
     }
-    &__link{
+    &__link {
       color: $color-grey;
       font-weight: 700;
       font-size: 0.6875rem;
@@ -46,14 +46,14 @@
       padding: 28px 18px 22px;
       border-bottom: 4px solid transparent;
       letter-spacing: 0.1875rem;
-      &:hover{
+      &:hover {
         color: $color-black;
         border-color: $color-primary;
       }
     }
   }
-  .menu{
-    &__btn{
+  .menu {
+    &__btn {
       display: none;
       position: absolute;
       top: -9999px;
@@ -90,7 +90,7 @@
         display: block;
         margin-bottom: 3px;
         background-color: $color-primary;
-        transition: .3s all ease-in-out;
+        transition: 0.3s all ease-in-out;
         &:last-child {
           margin-bottom: 0;
         }
@@ -101,5 +101,3 @@
     }
   }
 }
-
-
